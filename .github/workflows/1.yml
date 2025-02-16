@@ -15,14 +15,14 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/EndCredits/android_kernel_xiaomi_msm8953
+          kernel-url: https://github.com/chengtimmy/android_kernel_xiaomi_msm8953
           kernel-dir: msm-4.19
           kernel-branch: dot-11
           config: tiffany_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          android-version: 11
-          aosp-clang-version: r383902b
+          android-version: 12
+          aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
